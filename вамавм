@@ -36,6 +36,9 @@ export function setupIntersectionObserverMock({
         }
     }
 
+
+фцвцфвфцв
+
     Object.defineProperty(window, 'IntersectionObserver', {
         writable: true,
         configurable: true,
