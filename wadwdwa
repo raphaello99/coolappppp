@@ -1,0 +1,6 @@
+type Handler struct {
+	uploadService     interfaces.UserUploadService
+	userUploadService interfaces.UserUploadService
+	attachmentService interfaces.AttachmentService
+	depsLoader        interfaces.DepsLoader
+	accessService     interfaces.AccessService
